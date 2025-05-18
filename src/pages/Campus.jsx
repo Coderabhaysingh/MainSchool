@@ -44,7 +44,7 @@ const Campus = () => {
 							</div>
 							<div className="lg:w-1/2 h-64 bg-gray-200 flex items-center justify-center">
 								<img
-									src="/Images/labrotery.jpg"
+									src="/Images/physicslab2.jpg"
 									alt="Science Laboratories"
 									className="max-h-full"
 								/>
@@ -70,7 +70,7 @@ const Campus = () => {
 							</div>
 							<div className="lg:w-1/2 h-64 bg-gray-200 flex items-center justify-center">
 								<img
-									src="/Images/classroom.jpg"
+									src="/Images/classroom.png"
 									alt="Classrooms"
 									className="max-h-full"
 								/>
@@ -102,7 +102,7 @@ const Campus = () => {
 							</div>
 							<div className="lg:w-1/2 h-64 bg-gray-200 flex items-center justify-center">
 								<img
-									src="/Images/reading.jpg"
+									src="/Images/library.jpg"
 									alt="Library"
 									className="max-h-full"
 								/>
@@ -131,7 +131,7 @@ const Campus = () => {
 							</div>
 							<div className="lg:w-1/2 h-64 bg-gray-200 flex items-center justify-center">
 								<img
-									src="/Images/reading.jpg"
+									src="/Images/csLab2.jpg"
 									alt="Computer Labs"
 									className="max-h-full"
 								/>
@@ -162,7 +162,7 @@ const Campus = () => {
 							</div>
 							<div className="lg:w-1/2 h-64 bg-gray-200 flex items-center justify-center">
 								<img
-									src="/Images/allpagebg.jpg"
+									src="/Images/atallab.jpg"
 									alt="ATL Lab"
 									className="max-h-full"
 								/>
@@ -201,7 +201,7 @@ const Campus = () => {
 							</div>
 							<div className="lg:w-1/2 h-64 bg-gray-200 flex items-center justify-center">
 								<img
-									src="/Images/lab.jpg"
+									src="/Images/scout1.jpg"
 									alt="Scout and Guide"
 									className="max-h-full"
 								/>
@@ -233,7 +233,7 @@ const Campus = () => {
 							</div>
 							<div className="lg:w-1/2 h-64 bg-gray-200 flex items-center justify-center">
 								<img
-									src="/Images/sports.jpg"
+									src="/Images/sports_imze3.jpg"
 									alt="Sports"
 									className="max-h-full"
 								/>
@@ -262,7 +262,7 @@ const Campus = () => {
 								</div>
 							</div>
 							<div className="lg:w-1/2 h-64 bg-gray-200 flex items-center justify-center">
-								<img src="/Images/ncc.jpg" alt="NCC" className="max-h-full" />
+								<img src="/Images/ncc_imaze1.jpg" alt="NCC" className="max-h-full" />
 							</div>
 						</div>
 					</div>

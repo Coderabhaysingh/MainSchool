@@ -26,10 +26,6 @@ const Footer = () => {
 						alt="Logo"
 						className="w-28 h-28 object-contain"
 					/>
-					<p>
-						Vivamus volutpat eros pulvinar velit laoreet, sit amet egestas erat
-						dignissim. Lorem ipsum dolor sit amet, consectetur
-					</p>
 					<p className="flex items-center">
 						<FaPhoneAlt className="text-[#f1992d] mr-2" />
 						Phone: 9219405028
@@ -95,13 +91,13 @@ const Footer = () => {
 				</div>
 				<div>
 					<h3>
-						Designed & Developed By{" "}
+						Developed By{" "}
 						<Link
-							to="https://eraniket.netlify.app"
+							to="https://github.com/rimaru06"
 							target="blank"
 							className="text-[#f1992d] font-semibold"
 						>
-							Er. Aniket
+							Shiva Chahar
 						</Link>{" "}
 					</h3>
 				</div>
