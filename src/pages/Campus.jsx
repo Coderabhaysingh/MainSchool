@@ -139,45 +139,6 @@ const Campus = () => {
 						</div>
 					</div>
 
-					{/* ATL Lab */}
-					<div className="mb-12">
-						<div className="flex flex-col lg:flex-row gap-6">
-							<div className="lg:w-1/2">
-								<h1 className="text-3xl font-semibold mb-4">
-									ATL (Atal Tinkering Lab){" "}
-									<div className="w-15 mt-4 h-[.12rem] bg-[#f1992d]"> </div>{" "}
-								</h1>
-
-								<div className="space-y-4">
-									<p>
-										With a vision to 'Cultivate one Million children in India as
-										Neoteric Innovators', Atal Innovation Mission is
-										establishing Atal Tinkering Laboratories (ATLs) in schools
-										across India. The objective of this scheme is to foster
-										curiosity, creativity and imagination in young minds; and
-										inculcate skills such as design mindset, computational
-										thinking, adaptive learning, physical computing etc.
-									</p>
-								</div>
-							</div>
-							<div className="lg:w-1/2 h-64 bg-gray-200 flex items-center justify-center">
-								<img
-									src="/Images/atallab.jpg"
-									alt="ATL Lab"
-									className="max-h-full"
-								/>
-							</div>
-						</div>
-					</div>
-
-					<div className="flex flex-col items-center ">
-						<h1 className="text-4xl font-bold mb-2">
-							SPORTS & &nbsp;
-							<span className="text-[#f1992d]">CO-CURRICULAR</span>
-						</h1>
-						<div className="bg-gray-800 w-24 h-[.1rem] mb-1 ml-8"></div>
-						<div className="bg-gray-800 w-24 h-[.1rem] mb-10 mr-4"></div>
-					</div>
 
 					{/* Scout and Guide */}
 					<div className="mb-12">
