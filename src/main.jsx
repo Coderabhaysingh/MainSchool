@@ -4,6 +4,12 @@ import "./index.css";
 import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 
+const redirectPath = sessionStorage.getItem("redirect");
+if (redirectPath) {
+  sessionStorage.removeItem("redirect");
+  window.history.replaceState(null, "", redirectPath);
+}
+
 createRoot(document.getElementById("root")).render(
 	<BrowserRouter>
 		<App />
