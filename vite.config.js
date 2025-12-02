@@ -1,22 +1,29 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
 
-// https://vite.dev/config/
 export default defineConfig(({ command }) => {
   const isProduction = command === 'build';
   
   return {
     base: isProduction ? './' : '/',
-    plugins: [react(), tailwindcss()],
+    plugins: [
+      react({
+        // Add this to ensure JSX is properly handled
+        jsxImportSource: 'react',
+        babel: {
+          plugins: []
+        }
+      }), 
+      tailwindcss()
+    ],
     server: {
+      port: 3000,
+      open: true,
       hmr: {
         overlay: false
       },
-      historyApiFallback: {
-        disableDotRule: true,
-        index: '/index.html'
-      },
+      historyApiFallback: true,
       proxy: {
         // Add any API proxy configuration here if needed
       }
