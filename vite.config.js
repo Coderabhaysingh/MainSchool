@@ -6,7 +6,7 @@ export default defineConfig(({ command }) => {
   const isProduction = command === 'build';
   
   return {
-    base: isProduction ? './' : '/',
+    base: '/',
     plugins: [
       react({
         // Add this to ensure JSX is properly handled
@@ -18,6 +18,7 @@ export default defineConfig(({ command }) => {
       tailwindcss()
     ],
     server: {
+    historyApiFallback: true,
       port: 3000,
       open: true,
       hmr: {
