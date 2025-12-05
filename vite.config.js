@@ -18,16 +18,18 @@ export default defineConfig(({ command }) => {
       tailwindcss()
     ],
     server: {
-    historyApiFallback: true,
       port: 3000,
       open: true,
       hmr: {
         overlay: false
       },
-      historyApiFallback: true,
       proxy: {
         // Add any API proxy configuration here if needed
       }
+    },
+    preview: {
+      port: 3000,
+      strictPort: true
     },
     build: {
       outDir: 'dist',
