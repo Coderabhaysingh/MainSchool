@@ -7,6 +7,15 @@ export default defineConfig(({ command }) => {
   
   return {
     base: '/',
+    build: {
+      outDir: 'dist',
+      assetsDir: 'assets',
+      rollupOptions: {
+        output: {
+          manualChunks: undefined,
+        },
+      },
+    },
     plugins: [
       react({
         // Add this to ensure JSX is properly handled
@@ -18,6 +27,8 @@ export default defineConfig(({ command }) => {
       tailwindcss()
     ],
     server: {
+      historyApiFallback: true,
+      open: true,
       port: 3000,
       open: true,
       hmr: {
