@@ -36,7 +36,7 @@ const Footer = () => {
 					</p>
 					<p className="flex items-center">
 						<FaLocationDot className="text-[#f1992d] mr-2" />
-						Address: Address: Jagdishpuram,State Highway 12A,
+						Address: Jagdishpuram,State Highway 12A,
 						Muzaffarnagar,Uttar Pradesh 251001X
 					</p>
 				</div>
@@ -93,11 +93,11 @@ const Footer = () => {
 					<h3>
 						Developed By{" "}
 						<Link
-							to="https://github.com/rimaru06"
+							to="https://www.linkedin.com/in/satyamkumar1a2/"
 							target="blank"
 							className="text-[#f1992d] font-semibold"
 						>
-							Shiva Chahar
+							Satyam Kumar
 						</Link>{" "}
 					</h3>
 				</div>
