@@ -42,7 +42,7 @@ const OurManagement = () => {
 						<img
 							src={member.src}
 							alt={member.alt}
-							className="object-cover h-72 w-full max-w-xs rounded-md shadow-md"
+							className="w-60 max-w-xs h-64 rounded-md shadow-md object-contain bg-white"
 						/>
 						<div className="flex flex-col">
 							<span className="text-blue-800">{member.role}</span>

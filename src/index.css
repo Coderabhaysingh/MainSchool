@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+/* Global zoom-out effect */
+html {
+  font-size: 12px;   /* default is 16px → everything ~12–15% smaller */
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 15px; /* on large screens, still slightly smaller than default */
+  }
+}
