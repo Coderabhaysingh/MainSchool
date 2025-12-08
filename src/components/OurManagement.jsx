@@ -14,16 +14,16 @@ const OurManagement = () => {
 			<div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8">
 				{[
 					{
-						src: "/Images/lalitMaheshwari.png",
+						src: "/Images/suratsinghverma.png",
 						alt: "president",
 						role: "President",
-						name: "MR LALIT MAHESHWARI",
+						name: "MR Surat Singh Verma",
 					},
 					{
-						src: "/Images/devendrakumar.png",
+						src: "/Images/balbahadur.png",
 						alt: "manager",
 						role: "Manager",
-						name: "MR DEVENDRA KUMAR GARG",
+						name: "MR BALBAHADUR",
 					},
 					{
 						src: "/Images/ajaykumar.png",
