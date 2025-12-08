@@ -17,7 +17,7 @@ const OurManagement = () => {
 						src: "/Images/suratsinghverma.png",
 						alt: "president",
 						role: "President",
-						name: "MR Surat Singh Verma",
+						name: "MR SURAT SINGH VERMA",
 					},
 					{
 						src: "/Images/balbahadur.png",
