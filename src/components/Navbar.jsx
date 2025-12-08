@@ -27,9 +27,8 @@ const Navbar = () => {
 			{/* Top first Navbar */}
 
 			<div
-				className={`bg-gray-800 text-white text-sm transition-all duration-300 ${
-					isScrolled ? "hidden" : "block"
-				} md:block`}
+				className={`bg-gray-800 text-white text-sm transition-all duration-300 ${isScrolled ? "hidden" : "block"
+					} md:block`}
 			>
 				<div className="flex flex-col md:flex-row justify-between items-center px-4 sm:px-8 md:px-[4rem] py-2 gap-4">
 					<div className=" flex gap-4 items-center">
@@ -55,25 +54,33 @@ const Navbar = () => {
 					{/* navigation top social media icons */}
 
 					<div className="flex text-2xl">
-						<Link
+						<a
 							className="hover:bg-white hover:text-[#f1992d] rounded-full p-2"
-							to=""
+							href="https://www.facebook.com/lala.jpsvmic.mzn"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
 							<FaFacebook />
-						</Link>
-						<Link
+						</a>
+
+						<a
 							className="hover:bg-white hover:text-[#f1992d] rounded-full p-2"
-							to=""
+							href="https://www.instagram.com/lalajpsvmic?igsh=MXg4dTBuajRka3plMg%3D%3D"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
 							<IoLogoInstagram />
-						</Link>
-						<Link
+						</a>
+
+						<a
 							className="hover:bg-white hover:text-[#f1992d] rounded-full p-2"
-							to="https://www.youtube.com/channel/UCChwAKlyOKYnjL4xNOJn6Iw"
-							target="blank"
+							href="https://www.youtube.com/channel/UCChwAKlyOKYnjL4xNOJn6Iw"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
 							<TfiYoutube />
-						</Link>
+						</a>
+
 					</div>
 				</div>
 			</div>
@@ -91,7 +98,7 @@ const Navbar = () => {
 
 				{/* Contact Section: hide mobile screen or md */}
 				<div className="hidden md:flex justify-end gap-4">
-			
+
 					<div className="flex gap-2">
 						<div className="rounded-full text-gray-300 w-10 h-10 border flex justify-center items-center">
 							<IoCallSharp className="text-xl text-[#f1992d]" />
@@ -102,7 +109,7 @@ const Navbar = () => {
 						</div>
 					</div>
 
-				
+
 					<div className="flex gap-2">
 						<div className="rounded-full text-gray-300 w-10 h-10 border flex justify-center items-center">
 							<MdEmail className="text-xl text-[#f1992d]" />
@@ -131,9 +138,8 @@ const Navbar = () => {
 
 			{/* Main Navbar */}
 			<div
-				className={`bg-[#f6f6f6] w-full z-50 transition-all duration-300 ${
-					isScrolled ? "fixed top-0" : "relative"
-				}`}
+				className={`bg-[#f6f6f6] w-full z-50 transition-all duration-300 ${isScrolled ? "fixed top-0" : "relative"
+					}`}
 			>
 				<div className="max-w-7xl mx-[4rem] flex justify-between items-center h-16">
 					{/* Desktop Menu */}

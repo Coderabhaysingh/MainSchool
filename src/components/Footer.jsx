@@ -69,25 +69,33 @@ const Footer = () => {
 			{/* social media icon */}
 			<div className="z-11 relative flex flex-col items-center">
 				<div className="flex gap-4 p-2 text-2xl">
-					<Link
+					<a
 						className="hover:bg-white hover:text-[#f1992d] rounded-full p-2"
-						to=""
+						href="https://www.facebook.com/lala.jpsvmic.mzn"
+						target="_blank"
+						rel="noopener noreferrer"
 					>
 						<FaFacebook />
-					</Link>
-					<Link
+					</a>
+
+					<a
 						className="hover:bg-white hover:text-[#f1992d] rounded-full p-2"
-						to=""
+						href="https://www.instagram.com/lalajpsvmic?igsh=MXg4dTBuajRka3plMg%3D%3D"
+						target="_blank"
+						rel="noopener noreferrer"
 					>
 						<IoLogoInstagram />
-					</Link>
-					<Link
+					</a>
+
+					<a
 						className="hover:bg-white hover:text-[#f1992d] rounded-full p-2"
-						to="https://www.youtube.com/channel/UCChwAKlyOKYnjL4xNOJn6Iw"
-						target="blank"
+						href="https://www.youtube.com/channel/UCChwAKlyOKYnjL4xNOJn6Iw"
+						target="_blank"
+						rel="noopener noreferrer"
 					>
 						<TfiYoutube />
-					</Link>
+					</a>
+
 				</div>
 				<div>
 					<h3>
