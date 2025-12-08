@@ -43,7 +43,7 @@ const Navbar = () => {
 							<span className="font-semibold">
 								<MdEmail className="text-lg text-[#f1992d]" />
 							</span>{" "}
-							lalajpsvm123mzn@gmail.com
+							ljpsvm.in@gmail.com
 						</div>
 						<div className="flex items-center gap-2">
 							<FaRegClock className="text-lg text-[#f1992d]" />
@@ -109,7 +109,7 @@ const Navbar = () => {
 						</div>
 						<div>
 							<h4 className="text-lg font-medium">Send Message</h4>
-							<h5 className="text-gray-600">lalajpsvm123mzn@gmail.com</h5>
+							<h5 className="text-gray-600">ljpsvm.in@gmail.com</h5>
 						</div>
 					</div>
 

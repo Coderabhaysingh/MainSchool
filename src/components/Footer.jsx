@@ -32,7 +32,7 @@ const Footer = () => {
 					</p>
 					<p className="flex items-center">
 						<FaEnvelope className="text-[#f1992d] mr-2" />
-						Email: lalajpsvm123mzn@gmail.com
+						Email: ljpsvm.in@gmail.com
 					</p>
 					<p className="flex items-center">
 						<FaLocationDot className="text-[#f1992d] mr-2" />
