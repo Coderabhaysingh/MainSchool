@@ -8,6 +8,8 @@ import OurGallery from "./OurGallery";
 import ContactInfo from "./ContactInfo";
 import { useEffect, useState } from "react"; // for managing state and side effects
 import axios from "axios"; // for making the API call
+import YouTubeFacade from "./YouTubeFacade";
+
 
 const SimpleSlider = () => {
   const [galleryImages, setGalleryImages] = useState([]);
@@ -64,6 +66,18 @@ const SimpleSlider = () => {
 
       <OurManagement></OurManagement>
 <OurGallery></OurGallery>
+<div className="mx-[4rem] md:mt-12 mt-5">
+  <div className="flex flex-col items-center">
+    <h1 className="text-4xl font-bold mb-2 text-center">
+      Our&nbsp;<span className="text-[#f1992d]">School Videos</span>
+    </h1>
+    <div className="bg-gray-800 w-24 h-[.1rem] mb-1 ml-8"></div>
+    <div className="bg-gray-800 w-24 h-[.1rem] mb-10 mr-4"></div>
+  </div>
+
+  <YouTubeFacade videoId="K_QNa4fSoXk" isShorts={false} />
+</div>
+
 <ContactInfo></ContactInfo>
     </div>
   );
